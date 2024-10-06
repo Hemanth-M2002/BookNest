@@ -9,6 +9,7 @@ import Heroroot from './Hero/Heroroot';
 function App() {
   return (
     <BrowserRouter>
+    {/* //routes */}
       <Routes>
         <Route path="/" element={<Heroroot />} />
         <Route path="/add" element={<Addform />} />
